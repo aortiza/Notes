@@ -1,2 +1,3 @@
 # Notes
-Notes of diverse data analysis processes. 
+
+This is a repository of seveal notepads usefull for data analysis of different types of colloidal experiments.
