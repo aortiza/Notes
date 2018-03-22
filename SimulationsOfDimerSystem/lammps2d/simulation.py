@@ -420,7 +420,7 @@ class sim():
         if sys.platform=='darwin':
             lmp_exec = "./lmp_mac"
         elif sys.platform=='linux':
-            lmp_exec = "lmp_serial"
+            lmp_exec = "./lmp_serial"
         else:
             lmp_exec = "lmp_mingw64.exe"
 
