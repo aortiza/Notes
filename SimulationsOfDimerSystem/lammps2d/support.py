@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib
 import matplotlib.pyplot as plt
 import matplotlib.animation as anm
 import matplotlib.collections as clt
@@ -186,12 +187,12 @@ def display_animation_referenced(sim):
 
 def export_animation(sim,*args,**kargs):
     
-    if args:
+    if len(args)<1:
         trj = sim.load(read_trj=True)
     else: 
         trj = args[0]
         
-    anim = animate_trj(trj,sim,kargs)
+    anim = animate_trj(trj,sim,**kargs)
     anim.save(sim.base_name+".gif",writer = "imagemagick")
     return anim
     
