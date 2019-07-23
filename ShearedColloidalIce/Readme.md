@@ -4,3 +4,5 @@ These are several documents that show the process of analysing the Sheared Collo
 * [AlignImagesAndLattices](AlignImagesAndLattices.ipynb) shows the manual process of obtaining the alignment parameters to match a colloidal ice object to an array of located particles. 
 * [ReanalyseFirstFrames](ReanalyseFirstFrames.ipynb) fixes the problems of [CheckingExistingData](CheckingExistingData.ipynb) in the first frame by retracking the particles using a correlation algorithm, and by filtering out vertices close to the boundaries. 
 * [ParticleTracking](ParticleTracking.ipynb) shows the proceess of obtainting a dataset of particle trajectories from all the videos. It uses the correlation algorithm described in [ReanalyseFirstFrames](ReanalyseFirstFrames.ipynb)
+* [VertexStructure](VertexStructure.ipynb) matches the particle locations at each frame with a colloidal ice structure, and then converts it to vertices with charge and a dipole. 
+* [VertexCount](VertexCount.ipynb) classifies vertices using their charge and dipole, and then makes a plot of fraction of vertices vs field.
