@@ -16,4 +16,4 @@ In these notes I review some of the details of how the exchange process occurs, 
 * [CalculateVelocities_UpDown](CalculateVelocities_UpDown.ipynb) after running the simulations it is necessary to calculate the order parameters. Most of the order parameters we are observing can be retrieved from the *differentiated velocity* which averages the velocity of all particles and all times, but separates velocities for *up* and *down* particles. 
 ### Data visualizations
 * [Current Phase Diagram](Current_PhaseDiagram.ipynb) This notebook uses the data from the *differentiated velocity* and creates a phase diagram of different states characterized by the *current* order parameter. For the $h = 3.9\mu{}m$ case we compare it with the data of the model and find an agreement. 
-* [Current Angle] (Current_Angle.ipynb) Here we analyze the angle of the current relative to the angle of the tilt. 
+* [Current Angle](Current_Angle.ipynb) Here we analyze the angle of the current relative to the angle of the tilt. 
