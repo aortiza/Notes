@@ -17,3 +17,4 @@ In these notes I review some of the details of how the exchange process occurs, 
 ### Data visualizations
 * [Current Phase Diagram](Current_PhaseDiagram.ipynb) This notebook uses the data from the *differentiated velocity* and creates a phase diagram of different states characterized by the *current* order parameter. For the $h = 3.9\mu{}m$ case we compare it with the data of the model and find an agreement. 
 * [Current Angle](Current_Angle.ipynb) Here we analyze the angle of the current relative to the angle of the tilt. 
+* [Velocity vs Delta](VelocityVsDelta.ipynb) From the [Current Angle](Current_Angle.ipynb) we obtain a director vector, and then we plot the dependence of the velocity with the tilt. 
